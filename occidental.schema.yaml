@@ -2,11 +2,12 @@
 # encoding: utf-8
 
 schema:
-  schema_id: western_languages
+  schema_id: occidental
   name: 西方语言
   version: '1.0.231015'
   author: 
-    - Kaeso （https://github.com/Qayisoqho）
+    - Kaeso (https://github.com/Qayisoqho)
+    - mksinicus (marcuszhonggh@foxmail.com)
   description: |
     主要参考了Lexilogos的欧洲语言键盘（https://www.lexilogos.com/keyboard/index.htm）。
 
@@ -37,7 +38,7 @@ speller:
   auto_select: false
 
 translator:
-  dictionary: western_languages
+  dictionary: occidental
   enable_sentence: false
   enable_user_dict: false
   comment_format:
