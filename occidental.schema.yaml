@@ -4,10 +4,10 @@
 schema:
   schema_id: occidental
   name: 西方语言
-  version: '1.0.231015'
+  version: '1.0.231019'
   author: 
     - Kaeso (https://github.com/Qayisoqho)
-    - mksinicus (marcuszhonggh@foxmail.com)
+    - mksinicus <marcuszhonggh@foxmail.com>
   description: |
     主要参考了Lexilogos的欧洲语言键盘（https://www.lexilogos.com/keyboard/index.htm）。
 
@@ -34,8 +34,8 @@ menu:
 
 speller:
   alphabet: "aeiou/\\^-.~wytcd=,nsvzr'jghbfmpkl?(AEIOUWYTCDNSZRJGHBFMPKL\"-!`"
-  initials: "aeiouwytcndszrghjbfmpkl'?=AEIOUWYTCNDSZRGHJBFMPKL\"-!`."
-  auto_select: false
+  initials: "\\"
+  auto_select: true
 
 translator:
   dictionary: occidental
