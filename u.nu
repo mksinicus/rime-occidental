@@ -18,6 +18,12 @@ export def move-to-rimecfg [] {
 }
 export alias m = move-to-rimecfg
 
+export def build-and-move [] {
+  build-dict
+  move-to-rimecfg
+}
+export alias bm = build-and-move
+
 export def build-dict [] {
   cd $SOURCE_PATH
   let dest_file = [$SCHEMA_NAME dict yaml] | str join '.'
