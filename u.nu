@@ -49,7 +49,7 @@ export def build-readme [] {
   [
     (open README.main.md)
     (open $DICT_FILE | read-tsv | add-leading-key $LEADING_KEY
-    | update value {|col| ['``` ' $col.value '```'] | str join}
+    | update value {|col| ['``` ' $col.value ' ```'] | str join}
     | to md -p)
   ] | str join "\n"
   | save ([$ROOT_PATH README.md] | path join)
