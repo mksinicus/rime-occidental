@@ -33,7 +33,7 @@ menu:
   alternative_select_keys: "123456789"
 
 speller:
-  alphabet: "aeiou/\\^-.~wytcd=,nsvzr'jghbfmpkl?(AEIOUWYTCDNSZRJGHBFMPKL\"-!`"
+  alphabet: "aeiou/\\^-.~wytcd=,nsvzr'jghbfmpkl?([]<>AEIOUWYTCDNSZRJGHBFMPKL\"-!`"
   initials: "\\"
   auto_select: true
 
