@@ -95,8 +95,8 @@ All keys start with `\`. Otherwise it's just ASCII keyboard.
 | ṡ | \\s.    |
 | ṫ | \\t.    |
 | ḗ | \\e-/   |
-| ḯ | \\i../  |
-| ǘ  | \\u../  |
+| ḯ | \\i"/   |
+| ǘ  | \\u"/   |
 | ṓ | \\o-/   |
 | ḕ | \\e-\\  |
 | ṑ | \\o-\\  |
