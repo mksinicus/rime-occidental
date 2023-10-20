@@ -7,12 +7,22 @@ const LEADING_KEY   = '\'
 alias open = open -r
 alias save = save -f
 
+# Free movement after imported
+def --env ensure-pwd [] {
+  if (pwd) != $ROOT_PATH {
+    cd $ROOT_PATH
+  }
+}
+
+# For repository `rime-occidental`
 export def main [] {
+  ensure-pwd
   build-dict
   build-readme
 }
 
 export def move-to-rimecfg [] {
+  ensure-pwd
   let rimedir = open "rimedir" | str trim
   cp -fv *.yaml $rimedir
 }
